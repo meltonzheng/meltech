@@ -32,6 +32,7 @@
         </ul>
     </nav>
     <slot />
+    
     <footer class="text-white absolute inset-x-0 bottom bg-gray-800 p-7 pl-14">
         Copyright Melton Zheng
     </footer>
