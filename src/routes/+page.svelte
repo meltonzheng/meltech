@@ -2,7 +2,7 @@
     const imgUrl = new URL('../images/Melton.jpg', import.meta.url).href
 </script>
 <div>
-    <div class="flex bg-gray-600 p-10 pl-20">
+    <div class="flex h-4/6 bg-gray-600 p-10 pl-20">
     <!-- svelte-ignore a11y-img-redundant-alt -->
         <img src="{imgUrl}" alt="Picture of Melton Zheng" class="shrink border rounded-xl h-80"/>
         <div class="pl-10 text-white text-lg">
@@ -38,7 +38,6 @@
             <p>
                 Thanks!
             </p>
-            <br>
         </div>
         
     </div>

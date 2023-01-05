@@ -1,8 +1,8 @@
 <script>
     import "../app.css";
 </script>
-<div class="h-screen">
-    <nav class="flex items-center justify-between bg-gray-800 p-6 pl-14">
+<div class="h-screen flex-col bg-gray-600">
+    <nav class="h-1/6 flex items-center justify-between bg-gray-800 p-6 pl-14">
         <div class="flex items-center flex-shrink-0 text-white ml-6 mr-6">
             <a href="/" class="font-semibold text-xl tracking-tight">Melton Zheng's Profolio
             </a>
@@ -31,9 +31,8 @@
             </li>
         </ul>
     </nav>
-    <slot />
-    
-    <footer class="text-white absolute inset-x-0 bottom bg-gray-800 p-7 pl-14">
+        <slot />
+    <footer class="h-1/6 text-white absolute inset-x-0 bottom bg-gray-800 p-7 pl-14">
         Copyright Melton Zheng
     </footer>
 </div>
